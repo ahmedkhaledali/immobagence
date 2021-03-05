@@ -1,0 +1,401 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color:#0a1923!important;
+    margin: 0%;
+    padding: 0%;
+   
+}
+.img1{
+    background-image: url(img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100%;
+   height: 100vh;
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:whitesmoke;
+    font-weight: bolder;
+    
+    margin: auto;
+    
+
+}
+.navbar  a{
+    margin: 0 20px;
+    text-decoration: none;
+    color:#2d3436;
+    font-family: 'Raleway';
+    font-size: 20px;
+        display: block;
+        text-align: center;
+        
+        
+}
+.navbar a:hover{
+    color: whitesmoke;
+}
+.navbar ul{
+    list-style-type: none;
+
+}
+li {
+    float: left;
+  }
+
+.logo{
+    width: 100px;
+    float: right;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.txt{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color: #fe5d4c;
+
+}
+.form{
+    border-radius: 5px;
+  padding: 35px;
+    background-color: rgba(149, 165, 166,0.5);
+}
+
+.form input[type=text], select {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form label{
+    color:#2d3436;
+    
+}
+.form input[type="submit"]{
+    
+    
+    color:#2d3436;
+    border: 5px solid #e7e7e7;
+    border-radius: 10px;
+    font-size: 25px;
+    
+
+      
+}  
+      .form input[type="submit"]:hover {
+        background-color:grey; 
+        color: white;
+      }
+
+.img2{
+    width: 450px;
+    height: 350px;
+    padding: 25px;
+    filter: drop-shadow(0 0 0.75rem rgba(127, 140, 141,1.0));
+    border-radius: 30px;
+}
+
+.titre{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 40px;
+    color: #fe5d4c;;
+    padding: 10px;
+}
+.txt3{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: grey;
+}
+
+.container0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;    
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: silver;
+
+}
+.tem1{
+    color: tomato;
+    font-size: 70px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    
+}
+.tem2{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #0a1923;
+    font-weight: bolder;
+
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+
+}
+.image1{
+    width: 550px;
+    height: 400px;
+    box-shadow: 10px 10px 5px black;
+}
+
+
+
+.ttr{
+    font-family: 'Roboto';
+    color:whitesmoke;
+    font-size: 30px;
+    font-weight: bolder;
+}
+button{
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    border:solid;
+    border-color: tomato;
+    color:white;
+    font-weight: bold;
+    font-family: 'roboto';
+font-size: 20px;
+}
+button:hover{
+    background-color: tomato;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(img11.jpeg);
+    background-attachment: fixed;
+    padding: 60px;
+    background-repeat:no-repeat ;
+    
+    
+}
+.abo input{
+background-color: transparent;
+width: 150px;
+height: 50px;
+border-radius: 7px;
+border:solid;
+border-color: tomato;
+color:#0a1923;
+font-weight: bold;
+font-family: 'roboto';
+font-size: 20px;
+}
+.abo input:hover{
+    background-color: tomato;
+    color:whitesmoke ;
+}
+.abonner input{
+    
+width: 500px;
+height: 50px;
+border-radius: 7px;
+border:solid;
+border-color: tomato;
+color:#0a1923;
+font-weight: bold;
+font-family: 'roboto';
+font-size: 20px;
+
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.lien a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: whitesmoke;
+}
+.contact form label{
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: whitesmoke;
+}
+.contact form input{
+    width: 200px;
+    height: 20px;
+    border-radius: 7px;
+border-color: transparent;
+}
+textarea{
+    width: 70%;
+}
+.contact form input[type="submit"]{
+    color:#2d3436;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 35px;
+
+}
+.contact form input[type="submit"]:hover{
+    background-color: tomato;
+}
+.container6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: silver;
+}
+.row1 p{
+    font-family: 'roboto';
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.row1 a{
+    text-decoration: none;
+}
+.recherche p{
+    font-family: 'roboto';
+    font-weight: bolder;
+    font-size: 30px;
+    color: tomato;
+    text-align: center;
+
+}
+.recherche label{
+    font-family: 'Padauk';
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+.recherche input[type="submit"]{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    border:solid;
+    border-color: tomato;
+    color:#0a1923;
+    font-weight: bold;
+    font-family: 'roboto';
+font-size: 20px;
+}
+    .recherche input[type="submit"]:hover{
+        background-color: tomato;
+    }
+
+
+.agent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid;
+    background-color:whitesmoke;
+    width: 500px;
+    height: 250px;
+}
+.agent p{
+    font-family: 'Raleway';
+    font-size: 20px;
+    color:black;
+    
+}
+.agent:hover{
+    background-color: tomato;
+}
+.container7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: silver;
+
+}
+.container8{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px;
+        background-color: silver;
+    }
+    
+    .plus p{
+        font-family:'Raleway' ;
+        font-size: 20px;
+        color: black;
+    }
+    .pagination {
+        display: inline-block;
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+      }
+      
+      .pagination a.active {
+        background-color: tomato;
+        color: white;
+        border: 1px solid tomato;
+      }
+      
+      .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.container9{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: silver;
+      
+}
+.container10{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: silver;
+}
+.discp{
+    font-family: 'Padauk';
+    font-size: 20px;
+    padding: 10px;
+
+}
+.adress{
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: bold;
+}
